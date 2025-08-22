@@ -1,0 +1,15 @@
+[package]
+name = "Virtual-Consultation-Payments"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x14d14319e22628fc7b1507a8302f07dff011b6ebce84affc42841840c0e28b8d"
+
+[dev-addresses]
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
